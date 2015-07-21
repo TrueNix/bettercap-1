@@ -18,7 +18,7 @@ module Shell
     end
     
     def ifconfig(iface)
-      self.execute( "ifconfig #{iface}" )
+      self.execute( 'ifconfig #{iface}')
     end
 
   end
